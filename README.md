@@ -48,15 +48,15 @@ uvicorn 01main:app --reload
 ```
 ```
 # 5. Check the app content and docs
-# check the app on local browser
+# check the app in the browser
 http://127.0.0.1:8000
 
-# check interactive API documentation
+# check the interactive API documentation
 http://127.0.0.1:8000/docs
 
-# check alternative automatic documentation
+# check the alternative automatic documentation
 http://127.0.0.1:8000/redoc
 
-# check the raw OpenAPI schema, which includes the API paths, the possible parameters
+# check the raw OpenAPI schema, which includes the API paths and the possible parameters
 http://127.0.0.1:8000/openapi.json
 ```
