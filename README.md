@@ -1,6 +1,14 @@
-## FASTAPI
+## FastAPI
+
+#### Developer: [Sebastián Ramírez](https://github.com/tiangolo)
 
 #### [Tutorial Page](https://fastapi.tiangolo.com/tutorial/intro/)
+---
+
+#### What is FastAPI?
+FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.
+
+
 
 #### Installation
 ```
@@ -35,7 +43,7 @@ async def root():
 Esc :wq!
 
 # 4. Run the development server
-uvicorn 01main:app --
+uvicorn 01main:app --reload
 
 ```
 ```
