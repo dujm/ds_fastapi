@@ -1,22 +1,24 @@
 ---
-layout: page
-name: Web Applications & Frameworks
-
+title: Web Applications Frameworks
 ---
+
 ### Context
 #### 1. What is Web Server Gateway Interface (WSGI)?
 WSGI is a **standard interface** between **web servers** and **Python web** application frameworks.
+
 <br>  
 
 #### 2. What does WSGI do?
 By **standardizing behavior and communication** between web servers and Python web frameworks, WSGI makes it **possible to write portable Python web code** that can be deployed in any WSGI-compliant web server. WSGI is documented in PEP 3333.
+
 <br>  
 
 #### 3. What is a Framework?
 A web framework consists of:
  * a set of libraries
  * a main handler within which you can build custom code to implement a web application (i.e. an interactive web site).  
-<br>  
+
+ <br>  
 
 #### 4. What does a Framework do?
 Most web frameworks include å**patterns and utilities** to accomplish at least the following:
@@ -28,7 +30,8 @@ Most web frameworks include å**patterns and utilities** to accomplish at least 
    * Allows for separating Python code implementing an application’s logic from the HTML (or other) output that it produces
  * ##### Development Web Server
    * Runs an HTTP server on development machines to enable rapid development; often automatically reloads server-side code when files are updated
-<br>  
+
+ <br>  
 
 #### 5. How to choose a Framework?
 #### Popular
@@ -87,6 +90,6 @@ Most web frameworks include å**patterns and utilities** to accomplish at least 
 
 
 <br>
-
+---
 #### Reference
 Text adapted from [The Hitchhiker's Guide to Python: Web Applications & Frameworks](https://docs.python-guide.org/scenarios/web/)
