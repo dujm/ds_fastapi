@@ -21,7 +21,7 @@ A web framework consists of:
  <br>  
 
 #### 4. What does a Framework do?
-Most web frameworks include å**patterns and utilities** to accomplish at least the following:
+Most web frameworks include **patterns and utilities** to accomplish at least the following:
  * ##### URL Routing
    * Matches an incoming HTTP request to a particular piece of Python code to be invoked
    * Request and Response Objects
@@ -77,8 +77,7 @@ Most web frameworks include å**patterns and utilities** to accomplish at least 
 * ##### Tornado
     * Tornado is an **asynchronous** web framework for Python that has its own event loop.
     * This allows it to natively **support WebSockets**, for example. Well-written Tornado applications are known to have excellent performance characteristics.
-
-    I **do not recommend** using Tornado unless you think you need it.
+    * The author **do not recommend** using Tornado unless you think you need it.
 
 * ##### Pyramid
 
@@ -88,7 +87,8 @@ Most web frameworks include å**patterns and utilities** to accomplish at least 
     * It powers one of the most important parts of **python infrastructure PyPI**.
     * Pyramid does not have a large user base, unlike Django and Flask. It’s a **capable** framework, but **not a very popular** choice for new Python web applications today.
 
-
+#### 6.Use AWS Lambda and Amazon API Gateway to build serverless apps
+[Build and Deploy a Serverless REST API in Minutes Using Chalice](https://aws.amazon.com/blogs/developer/build-and-deploy-a-serverless-rest-api-in-minutes-using-chalice/)
 <br>
 ---
 #### Reference
